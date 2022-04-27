@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+
+.notify{
+	padding: 5px 0;
+	display: flex;
+	justify-content: center;
+	background-color: #181818;
+	color: #fff;
+	align-items: center;
+}
+.notify div a{
+	text-decoration: none;
+	color:#fff;
+	text-transform: uppercase;
+	margin-left:10px;
+}
+.notify div a:hover{
+	color:#428bca;
+}
+.navbar{
+	padding: 0 !important;
+	background-color: #fff !important;
+	box-shadow: 0px 12px 20px rgba(0,0,0,0.1);
+}
+
+.navbar .container-fluid{
+		padding: 0 5%;
+}
+.navbar .container-fluid .collapse{
+	flex-grow: 0 !important;
+	padding: 0 5%;
+}
+.navbar-nav .nav-item .nav-link{
+	padding: 1rem 2.5rem !important;
+	color:#000;
+	font-size: 18px;
+	font-weight: 100;
+}
+.navbar-nav .nav-item .nav-link:hover{
+		color:#202020;
+		background-color: #ddd;
+}
+#carouselExampleControls .item-1{
+	background:url("img/s1.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+	height:70vh;
+}
+.carousel-item div,.carousel-item div{
+	padding:5% 15%;
+	align-items: center;
+}
+.item-1 div p, .item-2 div p{
+	font-size: 4vw;
+	font-family: serif;
+	color: #d8bb9f;
+}
+.item-1 div button{
+	margin-top:10px; 
+	padding: 10px;
+	font-size: 1.5vw;
+	background: transparent;
+	letter-spacing: 2px;
+	color: #fff;
+	border: 2px solid #fff;
+	font-family: serif;
+}
+.item-1 div button:hover{
+	background-color: #fff;
+	color:#493939;
+}
+#carouselExampleControls .item-2 {
+	background:url("img/s2.jpg") no-repeat;
+	background-position: top;
+	background-size: cover;
+	height:70vh;
+}
+#carouselExampleControls .item-3 {
+	background:url("img/s3.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+	height:70vh;
+}
+.item-3 div p{
+	font-size: 4vw;
+	font-family: serif;
+	color: #171717;
+}
+.container{
+	padding:0;
+}
+.container-fluid video{
+	height:300px;
+	width:500px;
+}
+.container .container-fluid h3,.container h3{
+	word-spacing: 3px;
+	font-family: serif;
+	font-size: 36px;
+	font-weight: bolder;
+	text-align: center;
+	padding:5% 0;
+	text-transform: uppercase;
+}
+.container .container-fluid .row p{
+	font-family: serif;
+	font-size: 24px;
+}
+/*.container .owl-carousel{
+	display: flex;
+	margin:0 20px;
+	justify-content: center;
+	align-items: center;
+}*/
+.container .owl-carousel .item{
+	transition: 0.5s ease;
+	margin: 0 20px;
+}
+.container .owl-carousel .item img{
+	height:200px;
+	width:280px;
+}
+.owl-theme .owl-nav {
+    margin-top: 0px;
+}
+.owl-theme .owl-dots, .owl-theme .owl-nav{
+	text-align:right;
+	font-size: 24px;
+	padding:10px !important;
+}
+.owl-carousel .owl-nav button.owl-prev{
+	font-size: 24px;
+	color:#fff;
+	font-weight: bold;
+}
+/*.container .btn{
+	float: right;
+}
+.container div button{
+	padding:5px;
+	font-family: tahoma;
+	font-size: 24px;
+	font-weight: bolder;
+	background: #000;
+	color: #fff;
+	border: 2px solid #000;
+}*/
+.container-box{
+	margin-top: 10%;
+	padding: 5% 10%;
+	background: #202020;
+}
+.container-box .box{
+	display: flex;
+	justify-content: center;
+}
+.box .box-item{
+	margin:0 20px;
+}
+.box .box-item img,.box .box-item{
+	width:400px;
+	height: auto;
+	color: #fff;
+}
+.box h4{
+	font-size: 42px;
+	font-family: 'Prata',serif;
+	color: #fff;
+}
+.box .box-item .element{
+	font-size: 20px;
+	font-weight: lighter;
+	font-family: serif;
+}
+.box-item .btn button{
+	margin-top:10px; 
+	padding: 10px;
+	font-size: 1.5vw;
+	background: transparent;
+	letter-spacing: 2px;
+	color: #fff;
+	border: 2px solid #fff;
+	font-family: serif;
+	cursor: pointer;
+}
+.box-item .btn button:hover{
+	color:#202020;
+	background-color: #fff;
+}
+.slider-autoplay{
+	margin:0 ;
+	padding:3% 0;
+	background:#eee;
+	overflow: hidden;
+}
+.slider-autoplay h2{
+	padding: 0 5%;
+	text-align: left;
+	font-family: sans-serif;
+	font-weight: bolder;
+	font-size:40px;
+}
+.slider{
+	padding: 20px 0;
+	display: flex;
+	width: calc(450px * 10);
+	animation: scroll 40s linear infinite;
+}
+.slider:hover{
+	animation-play-state: paused;
+}
+.slider .slider-item{
+	margin:0 20px;
+	cursor: pointer;
+}
+.slider-item p{
+	font-size: 24px;
+	font-family: sans-serif;
+	font-weight: lighter;
+	text-align: center;
+}
+.slider .slider-item img{
+	width:450px;
+	height: 280px;
+}
+@keyframes scroll{
+	0%{
+		transform: translateX(0);
+	}
+	100%{
+		transform: translateX(calc(-450px * 5));
+	}
+}
+
+.section-content{
+	margin: auto 0;
+	padding: 5%
+}
+.section-content .section{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.section-item{
+	padding:0 20px;
+}
+.section .enquiry{
+	width:250px;
+	padding: 20px;
+	background-color: #202020;
+}
+.section .enquiry form h5{
+	color: #fff;
+	margin-bottom: 20px
+}
+.section .enquiry input{
+	margin: 10px 0;
+	padding-top:20px  !important;
+	border-radius: 5px !important;
+} 
+.section-item .btn{
+	margin-top: 20px;
+	color: #fff;
+	border: 2px solid #fff;
+	border-radius: 0;
+}
+.section-item .btn:hover{
+	color:#202020;
+	background: #fff;
+}
+.page-footer{
+	background: #202020;
+	color:#eee;
+}
+
+.page-footer .row .text {
+	margin:5px 0;
+	font-size: 14px;
+	font-family: serif;
+	font-weight: 100;
+	text-align: left;
+}
+.page-footer a{
+	text-decoration: none;
+	color:#eee;
+}
+.page-footer a:hover{
+	color:#ddd;
+}
+.footer-copyright{
+	background: #101010;
+}
+@media screen and (max-width:600px){
+	.notify div a{
+		font-size: 9px;
+	}
+	#carouselExampleControls .item-1,
+	#carouselExampleControls .item-2,
+	#carouselExampleControls .item-3{
+		height: 25vh;
+	}
+	.item-1 div button{
+		font-size: 18px;
+	}
+	.item-1 div p,
+	.item-2 div p,
+	.item-3 div p{
+		font-size: 5vw;
+	}
+	.container .container-fluid h3, .container h3{
+		font-size: 24px;
+	}
+	.container .container-fluid .row p{
+		font-size: 18px;
+	}
+	.container-fluid video {
+	    height: 150px;
+	    width: 280px;
+	}
+	.box .box-item img, .box .box-item{
+		margin-top: 10px;
+		width:250px;
+	}
+	.container-box .box{
+		display: block;
+	}
+	.box h4{
+		font-size: 32px;
+	}
+	.box .box-item .element{
+		font-size: 18px;
+	}
+	.box-item .btn button{
+		font-size: 3.5vw;
+	}
+	.slider .slider-item img{
+		width:250px;
+		height: 150px;
+	}
+	.slider-item p {
+		font-size: 18px;
+	}
+	.section-content .section{
+		display: block;
+	}
+	.section .enquiry{
+		width: 300px;
+		margin-left: 20px;		
+	}
+	.section-content .section .section-item iframe{
+		width:300px;
+		height: 150px;
+	}
+	.section-item{
+		margin-top: 20px;
+	}
+}
